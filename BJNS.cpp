@@ -18,13 +18,13 @@ using namespace std;
 //          prior on the diagonal elements of the precision matrices
 //
 // input:
-// Y              a list of K p-variate data profiles of possibly different sample sizes
+// 1. Y              a list of K p-variate data profiles of possibly different sample sizes
 //
-// matlist,       list of the matrices used for decomposing the precision matrices (for further info, read section 2 of the paper)
+// 2. matlist,       list of the matrices used for decomposing the precision matrices (for further info, read section 2 of the paper)
 // 
-// nmc,           total number of samples generated from the MCMC after sufficient burnins (2000 sample is enough)
+// 3. nmc,           total number of samples generated from the MCMC after sufficient burnins (2000 samples is the default)
 //
-// burnin,        number burnin sample (2000 sample is enough)
+// 4. burnin,        number burnin sample (2000 samples is the default)
 //
 // 
 // Output:
