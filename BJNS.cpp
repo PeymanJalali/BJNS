@@ -194,7 +194,7 @@ List BJNS( List Y, List matlist, int nmc = 2000, int burnin = 2000){
   }
   
   
-  // reconstruct the adjacency matrices of all Theta^r s in the decomposition model
+  // reconstruct the adjacency matrices of all Psi^r in the decomposition model
   cube Classes = zeros(p, p, M);
   for(int j=0; j<(p-1); j++)
     for(int k=(j+1); k<p; k++){
